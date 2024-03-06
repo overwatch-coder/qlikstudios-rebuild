@@ -26,6 +26,7 @@ const config = {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
+          yellow: "#A48111",
           foreground: "hsl(var(--primary-foreground))",
           main: "linear-gradient(180deg, rgb(17, 17, 17) 0%, rgb(17, 17, 17) 100%)"
         },
