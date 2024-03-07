@@ -28,11 +28,12 @@ const config = {
           DEFAULT: "hsl(var(--primary))",
           yellow: "#A48111",
           foreground: "hsl(var(--primary-foreground))",
-          main: "linear-gradient(90deg, rgb(17, 17, 17) 0%, rgb(17, 17, 17) 100%)"
+          main: "linear-gradient(180deg, rgb(17, 17, 17) 0%, rgb(17, 17, 17) 100%)"
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          gray: "#212529"
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

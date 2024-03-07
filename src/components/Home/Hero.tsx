@@ -34,9 +34,9 @@ const Hero = () => {
             />
 
             <div className="flex flex-col items-center py-32 space-y-10 text-center">
-              <h2 className="text-2xl md:text-4xl font-semibold text-primary-yellow">
+              <h1 className="text-2xl md:text-4xl font-semibold text-primary-yellow">
                 {title}
-              </h2>
+              </h1>
 
               <p className="text-white font-medium text-sm md:text-base italic">
                 {desc}
