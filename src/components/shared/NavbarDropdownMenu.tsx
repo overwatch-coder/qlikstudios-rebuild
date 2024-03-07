@@ -17,7 +17,7 @@ const NavbarDropdownMenu = ({ submenu, open }: NavbarDropdownMenuProps) => {
     <Popover open={open}>
       <PopoverTrigger>{open ? <ChevronUp /> : <ChevronDown />}</PopoverTrigger>
 
-      <PopoverContent className="bg-primary-yellow flex flex-col gap-5 border-0 h-52 shadow-lg">
+      <PopoverContent className="bg-primary-yellow flex flex-col gap-5 border-0 h-52 shadow-lg w-full">
         {submenu?.map((item) => (
           <Link
             href={item.path}
