@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Home | Qlik Studios",
+  title: "Home - Qlik Studios",
   description:
     "Results-oriented visual content that meets their personal satisfaction as well as their marketing goals, communication and professional services.",
 };
@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${poppins.className} overflow-x-hidden`}>
         <section className="flex flex-col min-h-screen">
           <Header />
-          <main className="mb-auto mt-16 px-5 md:px-16">{children}</main>
+          <main className="mb-auto">{children}</main>
           <Footer />
         </section>
       </body>

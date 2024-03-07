@@ -1,6 +1,6 @@
 // Images
-import hero1 from "@/assets/images/hero.jpg";
-import hero2 from "@/assets/images/slideshow1.jpg";
+import hero1 from "@/assets/images/hero1.jpg";
+import hero2 from "@/assets/images/hero4.jpg";
 import profile1 from "@/assets/images/danny10.jpg"
 import profile2 from "@/assets/images/gabby10.jpg"
 import slideshow1 from "@/assets/portfolio/slideshow1.jpg"
@@ -22,12 +22,12 @@ export const HERO_ITEMS: HeroConstant[] = [
     {
         title: 'Welcome to Qlik Studio',
         desc: 'Relive your moments with Qlik Studios',
-        image: hero1
+        photo: hero1
     },
     {
         title: 'A place for your perfect and dream pictures',
         desc: 'Timeless visual contents you will treasure for a lifetime',
-        image: hero2
+        photo: hero2
     }
 ]
 

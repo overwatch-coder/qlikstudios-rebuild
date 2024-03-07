@@ -11,14 +11,14 @@ import { usePathname } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
-  const [toggleMobileNav, setToggleMobileNav] = useState(false);
+  const [displayMobileNav, setDisplayMobileNav] = useState(false);
 
   useEffect(() => {
     if (pathname) {
-      setToggleMobileNav(false);
+      setDisplayMobileNav(false);
     }
 
-    return () => setToggleMobileNav(false);
+    return () => setDisplayMobileNav(false);
   }, [pathname]);
 
   return (
@@ -35,14 +35,11 @@ const Header = () => {
           />
         </Link>
 
-        <div>
-          <button
-            className="md:hidden"
-            onClick={() => setToggleMobileNav((prev) => !prev)}
-          >
+        <div className="md:hidden">
+          <button onClick={() => setDisplayMobileNav((prev) => !prev)}>
             <MenuIcon />
           </button>
-          <MobileNavBar open={toggleMobileNav} setOpen={setToggleMobileNav} />
+          <MobileNavBar open={displayMobileNav} setOpen={setDisplayMobileNav} />
         </div>
 
         <nav className="hidden md:flex items-center space-x-5">

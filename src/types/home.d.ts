@@ -3,7 +3,7 @@ import { StaticImageData } from "next/image";
 export type HeroConstant = {
     title: string;
     desc: string;
-    image: StaticImageData
+    photo: StaticImageData
 }
 
 export type Profile = {
