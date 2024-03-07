@@ -4,7 +4,7 @@ export type NavMenuItem = {
     submenu?: SubMenuItem[]
 }
 
-type SubMenuItem = {
+export type SubMenuItem = {
     name: string;
     path: string;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return <section className="py-20">HomePage</section>;
 };
 
 export default HomePage;

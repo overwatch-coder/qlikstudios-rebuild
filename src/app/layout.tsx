@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${poppins.className} overflow-x-hidden`}>
         <section className="flex flex-col min-h-screen">
           <Header />
-          <main className="mb-auto">{children}</main>
+          <main className="mb-auto mt-16 px-10 md:px-16">{children}</main>
           <Footer />
         </section>
       </body>

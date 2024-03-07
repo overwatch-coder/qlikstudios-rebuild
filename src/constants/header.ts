@@ -15,11 +15,15 @@ export const NAV_ITEMS: NavMenuItem[] = [
         submenu: [
             {
                 name: 'Services',
-                path: '#services'
+                path: '/services#services'
             },
             {
                 name: 'Packages',
-                path: '#packages'
+                path: '/services#packages'
+            },
+            {
+                name: 'Download Contract',
+                path: '/contracts'
             },
         ]
     },
