@@ -10,7 +10,7 @@ import Link from "next/link";
 const OurPortfolio = () => {
   return (
     <section className="py-16 bg-secondary-gray">
-      <article className="px-5 md:px-12 mx-auto flex flex-col gap-20">
+      <article className="px-5 md:px-16 mx-auto flex flex-col gap-20">
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-start gap-10"
           id="our-works"

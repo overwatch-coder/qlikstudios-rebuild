@@ -24,7 +24,7 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
     <Carousel
       className="relative"
       opts={{ loop: true }}
-      plugins={[Autoplay({ delay: 8000 })]}
+      plugins={[Autoplay({ delay: 5000 })]}
     >
       <CarouselContent>
         {HERO_DATA.map(({ photo, desc, title }, index) => (
@@ -39,12 +39,12 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
               quality={100}
             />
 
-            <div className="flex flex-col items-center py-32 space-y-10 text-center">
+            <div className="flex flex-col items-center py-32 space-y-10 text-center px-5">
               <h1 className="text-2xl md:text-4xl font-semibold text-primary-yellow-light">
                 {title}
               </h1>
 
-              <p className="text-white font-medium text-sm md:text-base italic">
+              <p className="text-white font-medium text-sm md:text-base italic max-w-2xl">
                 {desc}
               </p>
 
@@ -61,8 +61,8 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 left-5" />
-      <CarouselNext className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 right-5" />
+      <CarouselPrevious className="hidden md:flex bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 left-5" />
+      <CarouselNext className="hidden md:flex bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 right-5" />
     </Carousel>
   );
 };

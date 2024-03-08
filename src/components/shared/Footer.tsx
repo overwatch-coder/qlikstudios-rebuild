@@ -3,8 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import FooterSocial from "../Home/FooterSocial";
-import SubscribeForm from "./SubscribeForm";
+
 import FooterSubscribeSocial from "./FooterSubscribeSocial";
 
 const Footer = () => {
@@ -57,25 +56,25 @@ const Footer = () => {
 
           <Link
             className="text-white/70 text-sm hover:text-white"
-            href={"/services#services"}
+            href={"/services#service-types"}
           >
             Videography
           </Link>
           <Link
             className="text-white/70 text-sm hover:text-white"
-            href={"/services#services"}
+            href={"/services#service-types"}
           >
             Photography
           </Link>
           <Link
             className="text-white/70 text-sm hover:text-white"
-            href={"/services#services"}
+            href={"/services#service-types"}
           >
             Video Editing
           </Link>
           <Link
             className="text-white/70 text-sm hover:text-white"
-            href={"/services#services"}
+            href={"/services#service-types"}
           >
             Photo Editing & Retouching
           </Link>

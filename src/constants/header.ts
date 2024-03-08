@@ -15,7 +15,7 @@ export const NAV_ITEMS: NavMenuItem[] = [
         submenu: [
             {
                 name: 'Services',
-                path: '/services#services'
+                path: '/services'
             },
             {
                 name: 'Packages',
