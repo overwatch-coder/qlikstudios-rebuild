@@ -8,12 +8,18 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { HERO_ITEMS } from "@/constants/home";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { HeroConstant } from "@/types";
 
-const Hero = () => {
+type HeroProps = {
+  HERO_DATA: HeroConstant[];
+  btnText: string;
+  idName: string;
+};
+
+const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
   return (
     <Carousel
       className="relative"
@@ -21,7 +27,7 @@ const Hero = () => {
       plugins={[Autoplay({ delay: 8000 })]}
     >
       <CarouselContent>
-        {HERO_ITEMS.map(({ photo, desc, title }, index) => (
+        {HERO_DATA.map(({ photo, desc, title }, index) => (
           <CarouselItem key={index}>
             <div className="absolute w-screen h-full md:h-[80vh] -z-10 bg-black/70" />
             <Image
@@ -46,8 +52,8 @@ const Hero = () => {
                 asChild
                 className="bg-primary-yellow hover:bg-primary-yellow hover:scale-105 transition-all text-white rounded-full font-medium text-center"
               >
-                <Link className="px-7 py-5" href="#our-mission">
-                  Get Started
+                <Link className="px-7 py-5" href={idName}>
+                  {btnText}
                 </Link>
               </Button>
             </div>

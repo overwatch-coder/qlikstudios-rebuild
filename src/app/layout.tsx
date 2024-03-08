@@ -13,6 +13,20 @@ export const metadata: Metadata = {
   title: "Home - Qlik Studios",
   description:
     "Results-oriented visual content that meets their personal satisfaction as well as their marketing goals, communication and professional services.",
+  keywords: [
+    "Photography",
+    "Videography",
+    "Content-creation",
+    "Media Services",
+    "Portrait",
+    "Photo-shoot",
+    "Graduation",
+    "Birthday",
+    "Wedding",
+    "Products",
+  ],
+  authors: [{ name: "D Rwoy" }, { name: "Gabriel" }],
+  applicationName: "Qlik Studios Media Services",
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const NotFound = () => {
   return (
-    <section className="py-20 flex flex-col items-center mt-10 space-y-5">
+    <section className="py-32 flex flex-col items-center mt-10 space-y-5">
       <h1 className="font-bold font-[georgia] text-6xl text-orange-100">404</h1>
       <h2 className="text-2xl font-semibold">Page not found</h2>
       <p className="text-gray-600">
@@ -16,7 +16,7 @@ const NotFound = () => {
       </p>
       <Link
         href={"/"}
-        className="px-5 py-3 text-white uppercase bg-orange-100 hover:bg-transparent border hover:border-orange-100 hover:text-orange-100"
+        className="px-5 py-3 text-white uppercase bg-primary-yellow hover:bg-transparent border hover:border-orange-100 hover:text-orange-100 rounded-full text-center"
       >
         Go Home
       </Link>

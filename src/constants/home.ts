@@ -17,7 +17,7 @@ import { FaFacebook, FaWhatsapp, FaInstagram, FaYoutube } from "react-icons/fa";
 import { HeroConstant, Profile } from "@/types";
 
 // export constants
-export const HERO_ITEMS: HeroConstant[] = [
+export const HOMEPAGE_HERO: HeroConstant[] = [
   {
     title: "Welcome to Qlik Studio",
     desc: "Relive your moments with Qlik Studios",
