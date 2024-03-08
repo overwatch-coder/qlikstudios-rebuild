@@ -21,7 +21,9 @@ const Profile = ({ profile }: ProfileProps) => {
         />
 
         <div className="flex flex-col items-center gap-[10px]">
-          <h3 className="text-primary-yellow font-semibold">{profile.name}</h3>
+          <h3 className="text-primary-yellow-light font-semibold">
+            {profile.name}
+          </h3>
           <h4 className="text-white/80 font-medium">{profile.position}</h4>
           <p className="text-white/50 text-xs">{profile.career}</p>
           <p className="text-white/50 text-xs">{profile.hobby}</p>
@@ -29,7 +31,7 @@ const Profile = ({ profile }: ProfileProps) => {
       </div>
 
       <div className="py-5 flex flex-col gap-2 text-center items-center p-5">
-        <h4 className="text-[#ffc107] text-sm font-medium">
+        <h4 className="text-primary-yellow-light text-sm font-medium">
           {profile.excerpt}
         </h4>
 

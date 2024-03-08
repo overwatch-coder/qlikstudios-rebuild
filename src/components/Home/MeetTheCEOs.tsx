@@ -6,7 +6,7 @@ const MeetTheCEOs = () => {
   return (
     <section className="py-20 px-5 md:px-16 flex flex-col space-y-6">
       <div className="flex flex-col items-center text-center gap-3">
-        <h2 className="text-primary-yellow text-3xl md:text-4xl font-bold tracking-wide">
+        <h2 className="text-primary-yellow-light text-3xl md:text-4xl font-bold tracking-wide">
           Meet The CEOs
         </h2>
         <h4 className="text-gray-500 font-medium">

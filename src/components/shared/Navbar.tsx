@@ -23,7 +23,9 @@ const Navbar = () => {
       <div
         onClick={() => setDisplayServicesDropdown((prev) => !prev)}
         className={`${
-          active ? "text-primary-yellow font-bold" : "text-white/50 font-medium"
+          active
+            ? "text-primary-yellow-light font-bold"
+            : "text-white/50 font-medium"
         } hover:text-white hover:underline flex items-center space-x-1 cursor-pointer`}
       >
         <span className="text-lg md:text-base w-fit">{item.name}</span>
@@ -38,7 +40,9 @@ const Navbar = () => {
         href={item.path}
         key={item.name}
         className={`${
-          active ? "text-primary-yellow font-bold" : "text-white/50 font-medium"
+          active
+            ? "text-primary-yellow-light font-bold"
+            : "text-white/50 font-medium"
         } hover:text-white hover:underline text-lg md:text-base w-fit`}
       >
         {item.name}

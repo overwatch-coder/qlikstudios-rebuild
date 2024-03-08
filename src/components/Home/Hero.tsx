@@ -34,7 +34,7 @@ const Hero = () => {
             />
 
             <div className="flex flex-col items-center py-32 space-y-10 text-center">
-              <h1 className="text-2xl md:text-4xl font-semibold text-primary-yellow">
+              <h1 className="text-2xl md:text-4xl font-semibold text-primary-yellow-light">
                 {title}
               </h1>
 
@@ -44,9 +44,9 @@ const Hero = () => {
 
               <Button
                 asChild
-                className="bg-primary-yellow hover:bg-primary-yellow hover:scale-105 transition-all text-white rounded-full font-semibold text-center"
+                className="bg-primary-yellow hover:bg-primary-yellow hover:scale-105 transition-all text-white rounded-full font-medium text-center"
               >
-                <Link className="px-6 py-5" href="#our-mission">
+                <Link className="px-7 py-5" href="#our-mission">
                   Get Started
                 </Link>
               </Button>

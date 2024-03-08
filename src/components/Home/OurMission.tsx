@@ -11,7 +11,7 @@ const OurMission = () => {
       id="our-mission"
     >
       <div className="flex flex-col gap-8">
-        <h2 className="text-primary-yellow font-bold text-4xl md:text-5xl uppercase tracking-wide">
+        <h2 className="text-primary-yellow-light font-bold text-4xl md:text-5xl uppercase tracking-wide">
           Our Mission
         </h2>
 

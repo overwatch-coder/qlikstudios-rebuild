@@ -15,7 +15,8 @@ import Autoplay from "embla-carousel-autoplay";
 const SlideShow = () => {
   return (
     <Carousel
-      className="py-10 px-5 md:px-16 relative"
+      id="slideshow-container"
+      className="py-16 md:py-10 px-5 md:px-16 relative"
       opts={{ loop: true }}
       plugins={[Autoplay({ delay: 5000 })]}
     >

@@ -78,4 +78,19 @@
     );
     color: white;
   }
+
+  #slideshow-container,
+  header {
+    background: linear-gradient(
+      180deg,
+      rgba(20, 20, 20) 0%,
+      rgba(19, 18, 18) 100%
+    );
+  }
+
+  #footer-container,
+  #subscriber-container {
+    background: transparent linear-gradient(0deg, #070807db 0%, #2e2e2db5 100%)
+      0% 0% no-repeat padding-box;
+  }
 }
