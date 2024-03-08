@@ -47,3 +47,8 @@ export interface OurPackagesType {
 }
 
 export interface WhyChooseUsType extends HeroConstant {}
+
+export interface ContractType {
+  title: string;
+  url: string;
+}

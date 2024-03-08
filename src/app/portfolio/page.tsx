@@ -1,4 +1,4 @@
-import OurPortfolio from "@/components/Portfolio/OurPortfolio";
+import OurPortfolio from "@/components/portfolio/OurPortfolio";
 import Hero from "@/components/shared/Hero";
 import { PORTFOLIO_HERO } from "@/constants/portfolio";
 import { Metadata } from "next";

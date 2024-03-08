@@ -1,7 +1,7 @@
-import MeetTheCEOs from "@/components/Home/MeetTheCEOs";
-import OurMission from "@/components/Home/OurMission";
-import SlideShow from "@/components/Home/SlideShow";
-import Subscribe from "@/components/Home/Subscribe";
+import MeetTheCEOs from "@/components/home/MeetTheCEOs";
+import OurMission from "@/components/home/OurMission";
+import SlideShow from "@/components/home/SlideShow";
+import Subscribe from "@/components/home/Subscribe";
 import Hero from "@/components/shared/Hero";
 import { HOMEPAGE_HERO } from "@/constants/home";
 

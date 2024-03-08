@@ -97,4 +97,12 @@
   .service-type {
     background: linear-gradient(180deg, rgb(32, 31, 31), rgb(19, 18, 18));
   }
+
+  .contract-card-english {
+    background: linear-gradient(135deg, rgb(45, 130, 145), rgb(141, 141, 141));
+  }
+
+  .contract-card-french {
+    background: linear-gradient(135deg, rgb(141, 141, 141), rgb(25, 42, 194));
+  }
 }
