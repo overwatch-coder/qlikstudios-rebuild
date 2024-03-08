@@ -55,8 +55,8 @@ const Hero = () => {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-0 absolute top-1/2 left-5" />
-      <CarouselNext className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-0 absolute top-1/2 right-5" />
+      <CarouselPrevious className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 left-5" />
+      <CarouselNext className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 right-5" />
     </Carousel>
   );
 };
