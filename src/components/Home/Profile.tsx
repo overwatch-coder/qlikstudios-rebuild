@@ -2,6 +2,7 @@ import { Profile as ProfileType } from "@/types/home";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import SocialMedia from "../shared/SocialMedia";
 
 type ProfileProps = {
   profile: ProfileType;
@@ -39,13 +40,7 @@ const Profile = ({ profile }: ProfileProps) => {
 
         <div className="flex items-center gap-5 mx-auto pt-4">
           {profile.social.map((social, idx) => (
-            <Link href={social.url} target="_blank" key={idx}>
-              <social.icon
-                size={27}
-                className="hover:opacity-50"
-                color={social.color}
-              />
-            </Link>
+            <SocialMedia key={idx} social={social} />
           ))}
         </div>
       </div>

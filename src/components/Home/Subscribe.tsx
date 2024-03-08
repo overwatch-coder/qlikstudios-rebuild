@@ -8,7 +8,7 @@ const Subscribe = () => {
   return (
     <section
       id="subscriber-container"
-      className="py-10 px-5 md:px-16 grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 md:gap-20"
+      className="py-20 px-5 md:px-16 grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 md:gap-20"
     >
       <Image
         src={subscribeImage}
