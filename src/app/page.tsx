@@ -1,4 +1,5 @@
 import Hero from "@/components/Home/Hero";
+import MeetTheCEOs from "@/components/Home/MeetTheCEOs";
 import OurMission from "@/components/Home/OurMission";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <section className="pt-16 flex flex-col">
       <Hero />
       <OurMission />
+      <MeetTheCEOs />
       <section className="hidden py-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
         dignissimos alias at facilis quaerat, commodi et minima obcaecati animi

@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { IconType } from "react-icons/lib";
 
 export type HeroConstant = {
     title: string;
@@ -12,13 +13,13 @@ export type Profile = {
     position: string;
     career: string;
     hobby: string;
-    except: string;
+    excerpt: string;
     desc: string;
     social: SocialMenu[]
 }
 
 export type SocialMenu = {
-    icon: Icon;
+    icon: IconType;
     url: string;
     color: string;
 }

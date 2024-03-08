@@ -38,7 +38,7 @@ export const PROFILE: Profile[] = [
         position: "Co-Founder",
         career: "Nurse Anaesthetist/Artist",
         hobby: "Photographer/ Retoucher",
-        except: "Hi! I am D Rwoy",
+        excerpt: "Hi! I am D Rwoy",
         desc: "I’m an Artist, Photographer and coffee addict living in Morocco. I love to create beautiful images to uplift, encourage and inspire others. I am fun to be with when i am before the camera and will capture timeless photographs that you will treasure for a lifetime.",
         social: [
             { url: 'https://www.facebook.com/daniel.fiakpo/', icon: FaFacebook, color: "#1877f2" },
@@ -53,7 +53,7 @@ export const PROFILE: Profile[] = [
         position: "Co-Founder",
         career: "Medical Student/Youtuber",
         hobby: "Videographer/Video Editor",
-        except: "Hi! I am Gabriel also known as WWADD",
+        excerpt: "Hi! I am Gabriel also known as WWADD",
         desc: "I’m a professional videographer and youtuber in Morocco. I enjoy creating visual contents that resonates well with target audience. I love to tell  stories in a way that makes you relive those moments through vidoes and it's always an honor for me to be an integral part of my customer's success story.",
         social: [
             { url: 'https://www.facebook.com/edudzi14?_rdc=1&_rdr', icon: FaFacebook, color: "#1877f2" },
