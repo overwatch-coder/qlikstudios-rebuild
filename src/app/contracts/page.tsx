@@ -4,7 +4,6 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import Link from "next/link";
 import contract_bg_image from "@/assets/images/subscribe.jpg";
 import { Metadata } from "next";
 import {

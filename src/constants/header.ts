@@ -28,11 +28,11 @@ export const NAV_ITEMS: NavMenuItem[] = [
         ]
     },
     {
-        name: "Bookings",
-        path: "/bookings",
-    },
-    {
         name: "Contracts",
         path: "/contracts",
+    },
+    {
+        name: "Bookings",
+        path: "/bookings",
     },
 ]
