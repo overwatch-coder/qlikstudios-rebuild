@@ -1,4 +1,3 @@
-import { SubMenuItem } from "@/types/header";
 import {
   Popover,
   PopoverContent,
@@ -6,6 +5,7 @@ import {
 } from "@/components/ui/popover";
 import Link from "next/link";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { SubMenuItem } from "@/types";
 
 type NavbarDropdownMenuProps = {
   submenu?: SubMenuItem[];

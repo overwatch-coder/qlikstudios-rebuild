@@ -1,6 +1,5 @@
-import { Profile as ProfileType } from "@/types/home";
+import { Profile as ProfileType } from "@/types";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import SocialMedia from "../shared/SocialMedia";
 

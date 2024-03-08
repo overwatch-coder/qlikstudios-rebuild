@@ -1,4 +1,4 @@
-import { NavMenuItem } from "@/types/header";
+import { NavMenuItem } from "@/types";
 
 export const NAV_ITEMS: NavMenuItem[] = [
     {

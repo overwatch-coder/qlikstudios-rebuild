@@ -1,4 +1,4 @@
-import { SocialMenu } from "@/types/home";
+import { SocialMenu } from "@/types";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export const FOOTER_SOCIAL: SocialMenu[] = [

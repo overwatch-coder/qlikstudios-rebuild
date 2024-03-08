@@ -1,4 +1,4 @@
-import { SocialMenu } from "@/types/home";
+import { SocialMenu } from "@/types";
 import Link from "next/link";
 import React from "react";
 

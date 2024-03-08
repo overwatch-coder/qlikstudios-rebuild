@@ -1,6 +1,17 @@
 import { StaticImageData } from "next/image";
 import { IconType } from "react-icons/lib";
 
+export type NavMenuItem = {
+    name: string;
+    path: string;
+    submenu?: SubMenuItem[]
+}
+
+export type SubMenuItem = {
+    name: string;
+    path: string;
+}
+
 export type HeroConstant = {
     title: string;
     desc: string;
