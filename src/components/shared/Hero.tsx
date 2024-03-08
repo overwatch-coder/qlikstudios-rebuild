@@ -52,7 +52,7 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
                 asChild
                 className="bg-primary-yellow hover:bg-primary-yellow hover:scale-105 transition-all text-white rounded-full font-medium text-center"
               >
-                <Link className="px-7 py-5" href={idName}>
+                <Link className="px-7 py-5" href={`#${idName}`}>
                   {btnText}
                 </Link>
               </Button>

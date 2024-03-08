@@ -22,7 +22,7 @@ const Header = () => {
   }, [pathname]);
 
   return (
-    <header className="w-screen bg-black text-white fixed top-0 py-1 z-50 border-b border-b-white shadow-md">
+    <header className="w-screen bg-black text-white fixed -top-1 left-0 py-2 z-50 border-b border-b-white shadow-md">
       <div className="flex flex-row justify-between items-center px-5 md:px-16">
         <Link href={"/"}>
           <Image

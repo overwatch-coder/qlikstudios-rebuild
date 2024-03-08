@@ -4,6 +4,8 @@ import React from "react";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import FooterSocial from "../Home/FooterSocial";
+import SubscribeForm from "./SubscribeForm";
+import FooterSubscribeSocial from "./FooterSubscribeSocial";
 
 const Footer = () => {
   return (
@@ -108,12 +110,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-5 pb-5 px-5 md:px-16 md:items-center md:text-center">
-        <h3 className="text-2xl md:text-xl text-primary-yellow-light font-semibold tracking-wide">
-          Our Socials
-        </h3>
-        <FooterSocial classname="flex md:mx-auto" />
-      </div>
+      <FooterSubscribeSocial />
 
       <div
         style={{ background: "#121212 0% 0% no-repeat padding-box" }}

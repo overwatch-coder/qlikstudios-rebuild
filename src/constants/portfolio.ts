@@ -35,15 +35,15 @@ import product4 from "@/assets/images/royalty 4.jpg";
 
 export const PORTFOLIO_HERO: HeroConstant[] = [
   {
-    photo: hero1,
-    title: "Innovation Showcase",
-    desc: "Embark on a Journey Through Our Creative Masterpieces",
-  },
-  {
     photo: hero2,
     title: "Unveiling Excellence",
     desc: "A Glimpse into the Pinnacle of Our Achievements",
   },
+  {
+    photo: hero1,
+    title: "Innovation Showcase",
+    desc: "Embark on a Journey Through Our Creative Masterpieces",
+  }
 ];
 
 export const PORTFOLIO_WORKS = [

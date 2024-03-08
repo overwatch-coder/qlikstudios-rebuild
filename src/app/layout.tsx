@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={`${poppins.className} overflow-x-hidden`}>
+      <body className={`${poppins.className} overflow-x-hidden scroll-smooth`}>
         <section className="flex flex-col min-h-screen">
           <Header />
           <main className="mb-auto">{children}</main>
