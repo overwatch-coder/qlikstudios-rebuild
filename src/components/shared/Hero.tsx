@@ -26,7 +26,7 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
       opts={{ loop: true }}
       plugins={[Autoplay({ delay: 3000 })]}
     >
-      <CarouselContent>
+      <CarouselContent className="overflow-x-hidden">
         {HERO_DATA.map(({ photo, desc, title }, index) => (
           <CarouselItem key={index}>
             <div className="absolute w-screen h-full md:h-[80vh] -z-10 bg-black/70" />
