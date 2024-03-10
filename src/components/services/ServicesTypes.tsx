@@ -22,7 +22,7 @@ const ServicesTypes = () => {
             className="service-type py-5 rounded-md shadow-xl md:h-[350px] md:w-[320px]"
             key={idx}
           >
-            <h3 className="text-xl text-center text-primary-yellow-light font-semibold">
+            <h3 className="px-4 text-xl text-center text-primary-yellow-light font-semibold">
               {service.name}
             </h3>
 

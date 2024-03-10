@@ -15,7 +15,7 @@ const ServicesPackages = () => {
       <article className="px-7 md:px-16 flex flex-col md:flex-row items-center justify-center">
         {PACKAGES_TYPES.map((item, idx) => (
           <div
-            className="bg-white/80 even:bg-white/90 transition duration-1000 hover:scale-110 hover:even:bg-white hover:bg-white even:scale-[1.02] hover:even:scale-110 py-5 hover:z-40 rounded-md shadow-xl w-full md:h-[400px] md:w-[350px]"
+            className="bg-white/80 even:bg-white transition duration-1000 hover:scale-105 hover:bg-white even:scale-[1.01] py-5 hover:z-30 rounded-md shadow-xl w-full md:h-[400px] md:w-[350px]"
             key={idx}
           >
             <h3 className="text-2xl text-center text-primary-yellow font-bold">
