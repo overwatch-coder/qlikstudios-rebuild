@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import SubscribeForm from "./SubscribeForm";
-import FooterSocial from "../home/FooterSocial";
+import FooterSocial from "@/components/homepage/FooterSocial";
 import { usePathname } from "next/navigation";
 
 const FooterSubscribeSocial = () => {
