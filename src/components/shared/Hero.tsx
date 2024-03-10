@@ -24,7 +24,7 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
     <Carousel
       className="relative"
       opts={{ loop: true }}
-      plugins={[Autoplay({ delay: 3000 })]}
+      plugins={[Autoplay({ delay: 5000 })]}
     >
       <CarouselContent>
         {HERO_DATA.map(({ photo, desc, title }, index) => (
