@@ -8,10 +8,7 @@ const ServicesTypes = () => {
       className="py-16 bg-secondary-gray flex flex-col gap-5"
       id="service-types"
     >
-      <div
-        data-aos="fade-up"
-        className="text-center mx-auto flex flex-col gap-5 pb-10"
-      >
+      <div className="text-center mx-auto flex flex-col gap-5 pb-10">
         <h2 className="text-4xl font-bold text-white">What We Do</h2>
         <p className="text-white/80 font-light text-sm">
           Below are our available services.

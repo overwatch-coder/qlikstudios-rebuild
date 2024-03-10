@@ -24,6 +24,7 @@ const OurPortfolio = () => {
               height={500}
               className="object-cover w-full md:h-[350px] last:h-full last:col-span-1 sm:last:col-span-2 md:last:col-span-3 lg:last:col-span-4 border border-primary-yellow-light hover:scale-105 transition duration-1000 hover:opacity-60"
               data-aos="fade-down"
+              data-aos-duration={1000 + idx}
             />
           ))}
         </div>
@@ -37,7 +38,6 @@ const OurPortfolio = () => {
               src={item}
               allowFullScreen
               className="w-full md:h-[300px]"
-              data-aos="fade-up"
             />
           ))}
         </div>
