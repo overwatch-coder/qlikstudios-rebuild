@@ -71,9 +71,10 @@ const BookingsPage = () => {
             width={600}
             height={600}
             quality={100}
+            data-aos="fade-up"
           />
 
-          <section className="flex flex-col gap-5 w-full">
+          <section data-aos="fade-up" className="flex flex-col gap-5 w-full">
             <h3 className="flex items-center justify-center mx-auto text-center gap-5">
               <Image
                 src={fill_in_form}

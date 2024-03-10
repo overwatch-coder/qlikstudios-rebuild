@@ -23,6 +23,7 @@ const SubscribeForm = () => {
           name="subscribe"
           placeholder="your email address..."
           className="px-10 py-3 rounded text-black placeholder:text-sm w-full focus:border-0 ring-0 outline-none"
+          required
         />
       </div>
 

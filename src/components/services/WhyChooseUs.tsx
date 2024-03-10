@@ -6,7 +6,10 @@ import { WHY_CHOOSE_US } from "@/constants/services";
 const WhyChooseUs = () => {
   return (
     <section className="py-16 bg-secondary-gray flex flex-col gap-5">
-      <div className="flex flex-col items-center gap-5 px-5 md:px-16 text-center pb-10">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col items-center gap-5 px-5 md:px-16 text-center pb-10"
+      >
         <h3 className="uppercase text-xs font-semibold">Why Choose Us</h3>
         <h4 className="capitalize text-xl font-bold">
           For our Experienced, Skilled, Quality & Expeditious Services
@@ -19,7 +22,10 @@ const WhyChooseUs = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 place-items-center px-5 md:px-16 pb-10">
+      <div
+        data-aos="fade-right"
+        className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 place-items-center px-5 md:px-16 pb-10"
+      >
         <Image
           src={why_choose_us_image}
           alt="why choose us"
@@ -31,7 +37,7 @@ const WhyChooseUs = () => {
 
         <div className="flex flex-col gap-10">
           {WHY_CHOOSE_US.map((item, idx) => (
-            <div key={idx} className="flex flex-col gap-5">
+            <div data-aos="fade-up" key={idx} className="flex flex-col gap-5">
               <div className="flex flex-row gap-5 items-center">
                 <Image
                   src={item.photo}

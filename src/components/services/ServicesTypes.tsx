@@ -8,7 +8,10 @@ const ServicesTypes = () => {
       className="py-16 bg-secondary-gray flex flex-col gap-5"
       id="service-types"
     >
-      <div className="text-center mx-auto flex flex-col gap-5 pb-10">
+      <div
+        data-aos="fade-up"
+        className="text-center mx-auto flex flex-col gap-5 pb-10"
+      >
         <h2 className="text-4xl font-bold text-white">What We Do</h2>
         <p className="text-white/80 font-light text-sm">
           Below are our available services.
@@ -18,6 +21,7 @@ const ServicesTypes = () => {
       <article className="px-5 md:px-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto">
         {SERVICES_TYPES.map((service, idx) => (
           <div
+            data-aos="fade-up"
             className="service-type py-5 rounded-md shadow-xl md:h-[350px] md:w-[320px]"
             key={idx}
           >

@@ -10,7 +10,7 @@ const OurMission = () => {
       className="px-5 md:px-12 mx-auto py-10 bg-secondary-gray grid grid-cols-1 md:grid-cols-2 place-items-center gap-5 md:gap-20"
       id="our-mission"
     >
-      <div className="flex flex-col gap-8">
+      <div data-aos="fade-right" className="flex flex-col gap-8">
         <h2 className="text-primary-yellow-light font-bold text-4xl md:text-5xl uppercase tracking-wide">
           Our Mission
         </h2>
@@ -28,7 +28,7 @@ const OurMission = () => {
         </p>
       </div>
 
-      <div className="flex flex-col space-y-4 w-full">
+      <div data-aos="fade-left" className="flex flex-col space-y-4 w-full">
         <div className="hidden md:grid grid-cols-2 gap-5">
           <Image
             src={mission1}

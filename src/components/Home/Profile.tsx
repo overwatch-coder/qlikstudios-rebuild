@@ -9,7 +9,10 @@ type ProfileProps = {
 
 const Profile = ({ profile }: ProfileProps) => {
   return (
-    <article className="w-full md:w-[500px] md:h-[500px] flex flex-col py-5 items-center gap-6 shadow-md rounded-md bg-secondary-gray">
+    <article
+      data-aos="fade-up"
+      className="w-full md:w-[500px] md:h-[500px] flex flex-col py-5 items-center gap-6 shadow-md rounded-md bg-secondary-gray"
+    >
       <div className="grid grid-col-1 md:grid-cols-2 gap-5 place-items-center">
         <Image
           src={profile.photo}

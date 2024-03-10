@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
+import Script from "next/script";
+import AosProvider from "@/providers/AosProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -36,13 +38,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={`${poppins.className} overflow-x-hidden scroll-smooth`}>
-        <section className="flex flex-col min-h-screen">
-          <Header />
-          <main className="mb-auto">{children}</main>
-          <Footer />
-        </section>
-      </body>
+      <AosProvider>
+        <body className={`${poppins.className}`}>
+          <section className="flex flex-col min-h-screen">
+            <Header />
+            <main className="mb-auto">{children}</main>
+            <Footer />
+          </section>
+        </body>
+      </AosProvider>
     </html>
   );
 }

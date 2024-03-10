@@ -12,6 +12,7 @@ type ContractCardProps = {
 const ContractCard = ({ contract, classname, btnText }: ContractCardProps) => {
   return (
     <div
+      data-aos="flip-down"
       className={`${classname} flex flex-col gap-10 rounded-md shadow-md w-full md:w-[300px] items-center text-center p-4 sm:last:col-span-2 md:last:col-span-3 py-10 hover:scale-105 transition duration-1000`}
     >
       <h3 className="uppercase text-lg text-white font-semibold">
