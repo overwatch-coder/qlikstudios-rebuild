@@ -24,7 +24,7 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
     <Carousel
       className="relative"
       opts={{ loop: true }}
-      plugins={[Autoplay({ delay: 5000 })]}
+      plugins={[Autoplay({ delay: 3000 })]}
     >
       <CarouselContent>
         {HERO_DATA.map(({ photo, desc, title }, index) => (
@@ -61,8 +61,8 @@ const Hero = ({ HERO_DATA, btnText, idName }: HeroProps) => {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious className="hidden md:flex bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 left-5" />
-      <CarouselNext className="hidden md:flex bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-1/2 right-5" />
+      <CarouselPrevious className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-2/3 md:top-1/2 left-5" />
+      <CarouselNext className="bg-transparent hover:bg-transparent text-white/70 hover:text-white border-2 absolute top-2/3 md:top-1/2 right-5" />
     </Carousel>
   );
 };
