@@ -52,3 +52,18 @@ export interface ContractType {
   title: string;
   url: string;
 }
+
+export interface InputFields {
+  fullname: string;
+  email: string;
+  date: string;
+  specifications: string;
+  serviceType: string;
+  eventType: string;
+  packageType: string;
+}
+
+export interface InitialFormState {
+  success: boolean;
+  message: string;
+}
