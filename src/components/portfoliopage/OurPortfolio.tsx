@@ -53,7 +53,6 @@ const OurPortfolio = () => {
               width={500}
               height={500}
               className="object-cover w-full md:h-[350px] hover:scale-105 transition duration-1000 hover:opacity-60"
-              data-aos="flip-up"
             />
           ))}
         </div>
