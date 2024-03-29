@@ -24,6 +24,13 @@ const BookingForm = () => {
     mode: "all",
   });
 
+  // get default time for the booking appointment field
+  const defaultTimeAndDate = new Date(
+    new Date().getTime() - new Date().getTimezoneOffset() * 60000
+  )
+    .toISOString()
+    .slice(0, 16);
+
   const processBookSubmit: SubmitHandler<BookFormType> = async (data) => {
     const result = await submitBookForm(data);
     if (!result.success) {
@@ -163,9 +170,7 @@ const BookingForm = () => {
               className="px-4 py-2 rounded text-black placeholder:text-sm w-full focus:border-0 ring-0 outline-none"
               {...register("eventType")}
             >
-              <option value="" selected>
-                Pick one
-              </option>
+              <option value="">Pick one</option>
               {selectEventTypes.map((eventType, idx) => (
                 <option value={eventType.toLowerCase()} key={idx}>
                   {eventType}
@@ -189,6 +194,8 @@ const BookingForm = () => {
             type="datetime-local"
             className="px-5 py-2 rounded text-black placeholder:text-sm w-full focus:border-0 ring-0 outline-none"
             {...register("date")}
+            defaultValue={defaultTimeAndDate}
+            min={defaultTimeAndDate}
           />
         </div>
         {errors?.date?.message && (
